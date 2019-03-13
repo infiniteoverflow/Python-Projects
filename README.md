@@ -4,5 +4,5 @@ Some of the basic projects you can start with in Python:
 2. PASSWORD Generator
 
 ```
-> Feel Free to Contribute
+ Feel Free to Contribute
 ```
