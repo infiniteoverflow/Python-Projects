@@ -2,9 +2,9 @@ name = input("What is your name? ")
 
 print(name, "play hangman!")
 
-word = input("enter the word")
+word = input("enter the word: ")
 
-print("guess the character")
+print("guess the character: ")
 
 guesses = ''
 
@@ -25,7 +25,7 @@ while turns > 0:
         print("won")
         break
 
-    guess = input("guess a character:")
+    guess = input("guess a character: ")
 
     guesses += guess
 
@@ -34,5 +34,5 @@ while turns > 0:
         print("Wrong")
         print("You have", + turns, 'more guesses')
         if turns == 0:
-            print("You Loose")
+            print("You Loose!")
 
